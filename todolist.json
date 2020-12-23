@@ -1,0 +1,12 @@
+{
+    "urgent": [
+        "finish homework",
+        "clean room",
+        "improve app"
+    ],
+    "nonurgent": [
+        "check updates",
+        "watch anime",
+        "read manga"
+    ]
+}
