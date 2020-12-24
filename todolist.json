@@ -1,12 +1,12 @@
 {
     "urgent": [
-        "finish homework",
-        "clean room",
-        "improve app"
+        "improve todo-cli",
+        "learn more vim",
+        "push to master"
     ],
     "nonurgent": [
-        "check updates",
-        "watch anime",
-        "read manga"
+        "study vimrc",
+        "customize vim",
+        "more color schemes"
     ]
 }
