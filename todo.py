@@ -1,4 +1,4 @@
-import json, time
+import json, time, os
 
 class Colors:
     def __init__(self):
@@ -44,6 +44,7 @@ class Colors:
 
 class Todo(object):
     def __init__(self):
+        os.chdir('./todo-cli')
         with open('./todolist.json', 'r') as f:
             self.todo_list = json.load(f)
         self.done_tasks = 0
