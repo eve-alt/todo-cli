@@ -63,6 +63,12 @@ Commands:
                 
 Press enter to continue..""")
 
+    def send_finished_tasks(self):
+        subprocess.run('clear')
+        op = 'You have finished/removed {self.done_tasks} this session! Have a good day.' if self.done_tasks >= 1 else 'You haven\'t finished/removed any task this session. Have a good day.'
+        print(op)
+        time.sleep(3)
+
     def run(self):
         self.main()
             
@@ -79,6 +85,7 @@ Press enter to continue..""")
 
             elif command.lower() == 'end':
                 self.save_list()
+                self.send_finished_tasks()
                 break
 
             elif command.lower().startswith('insert'):
