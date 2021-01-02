@@ -6,7 +6,6 @@
     ],
     "nonurgent": [
         "study vimrc",
-        "customize vim",
-        "more color schemes"
+        "customize vim"
     ]
 }
